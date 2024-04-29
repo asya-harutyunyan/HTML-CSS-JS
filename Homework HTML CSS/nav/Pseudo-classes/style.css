@@ -1,0 +1,12 @@
+h1:active {
+    background-color: yellow;
+  }
+
+  input:checked {
+    height: 50px;
+    width: 50px;
+  } 
+
+ a:visited {
+  background-color: yellow;
+} 

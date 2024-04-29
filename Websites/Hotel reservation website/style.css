@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+  color: black;
+}
+.w3-bar {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  white-space: normal;
+}
+.w3-white {
+  color: black;
+  background-color: white;
+}
+.w3-large {
+  font-size: 18px;
+}
+.w3-bar-item {
+  padding: 8px 16px;
+  float: left;
+  border: none;
+  display: block;
+  outline: 0;
+  text-decoration: none;
+  color: black;
+}
+.w3-red {
+  color: white;
+  background-color: #f44336;
+}
+.w3-red:hover {
+  color: black;
+  background-color: lightgrey;
+}
+.w3-bar-item:hover {
+  background-color: lightgray;
+}
+.w3-right {
+  float: right;
+}
+.w3-content {
+  padding: 8px 16px;
+
+  position: absolute;
+  float: left;
+}
+.w3-container-red {
+  color: white;
+  background-color: #f44336;
+  padding: 0.01em 16px;
+}
+.w3-container {
+  color: black;
+  background-color: white;
+  padding: 16px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.w3-display-left {
+  width: 450px;
+  height: 300px;
+}
+.w3-row {
+  display: flex;
+  margin: 8px -16px;
+  padding: 0 8px;
+}
+.w3-button {
+  color: white;
+  background-color: #616161;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.w3-button:hover {
+  color: black;
+  background-color: rgb(161, 171, 182);
+}
+input {
+  padding: 8px;
+  border: 1px solid grey;
+}
+.w3-half {
+  padding: 0 8px;
+}

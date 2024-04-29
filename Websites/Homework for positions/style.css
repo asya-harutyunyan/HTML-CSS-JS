@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 15px;
+  line-height: 1.5;
+}
+:root {
+  --black: black;
+  --grey: #3b3939;
+  --blue: #009688;
+  --white: white;
+}
+.navbar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: var(--black);
+  z-index: 1;
+  overflow: hidden;
+}
+.nav-items {
+  display: flex;
+}
+.item {
+  list-style: none;
+}
+
+.link {
+  border: none;
+  color: var(--white);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 16px;
+  display: block;
+}
+.link:hover {
+  color: var(--black);
+  background-color: var(--white);
+}
+.logo {
+  background-color: var(--grey);
+}
+.logo:hover {
+  background-color: rgb(179, 169, 169);
+  color: var(--black);
+}
+aside {
+  width: 250px;
+  position: fixed;
+  height: 100vh;
+  top: 43px;
+  bottom: 0;
+  color: var(--black);
+  background-color: #f0f0f0;
+  font-size: 18px;
+}
+h4 {
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 8px 16px;
+  margin: 10px 0;
+}
+.bar-item {
+  padding: 8px 16px;
+  width: 100%;
+  display: block;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0;
+  text-decoration: none;
+  color: var(--black);
+}
+.bar-item:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+.container {
+  display: flex;
+}
+main {
+  margin-left: 250px;
+}
+.row {
+  padding: 64px 0;
+  display: flex;
+}
+.information {
+  padding: 0.01em 16px;
+  width: 67%;
+  float: left;
+}
+h1 {
+  color: var(--blue);
+  margin: 10px 0;
+  font-weight: 400;
+}
+.lorem {
+  margin: 15px 0;
+}
+.boxes {
+  padding: 0.01em 16px;
+  width: 35%;
+}
+.ad-small {
+  padding: 32px 24px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.ad-large {
+  padding: 64px 24px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.numbering {
+  padding: 32px 0;
+  text-align: center;
+}
+.nav-button {
+  display: inline-block;
+  width: auto;
+  overflow: hidden;
+}
+.number1 {
+  background-color: var(--black);
+  color: var(--white);
+}
+.number1:hover {
+  background-color: lightgray;
+  color: var(--black);
+}
+.number-color {
+  color: var(--black);
+}
+.number-color:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+.myfooter {
+  color: var(--white);
+  background-color: #666666;
+  padding: 32px 16px;
+}
+.title-footer {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 20px;
+}
+.powered-by {
+  color: var(--white);
+  background-color: #333333;
+  padding: 16px;
+}
+.link-w3 {
+  color: var(--white);
+}

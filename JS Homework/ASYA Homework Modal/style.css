@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+.main-page {
+  background-image: url(./images/onepage_restaurant.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.left-buttons {
+  padding: 2.4rem 1.6rem;
+}
+.btn-menu {
+  margin-bottom: 2.4rem;
+}
+.btn-left-side {
+  font-size: 2.4rem;
+  padding: 0.8rem 1.6rem;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  cursor: pointer;
+  display: block;
+}
+.btn-left-side:hover {
+  color: black;
+  background-color: #ccc;
+}
+.logo-title {
+  font-size: 6.4rem;
+  max-width: 13.3125rem;
+  margin: 0 auto;
+  color: #fff;
+  margin-top: 20rem;
+}
+.footer-info {
+  color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 1.6rem;
+}
+.date {
+  font-size: 2.4rem;
+  margin: 2.4rem 0;
+}
+.address {
+  font-size: 1.8rem;
+  margin: 1.8rem 0;
+}
+.w3-link {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+}
+.link {
+  color: #fff;
+  margin-left: 0.4rem;
+}
+.modal-content {
+  color: white;
+  position: absolute;
+  width: 90rem;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #000;
+  margin-top: 10rem;
+  z-index: 10;
+}
+.ul-menu {
+  list-style: none;
+}
+.li-item {
+  font-size: 1.8rem;
+  padding: 1rem 1.6rem;
+}
+.li-title {
+  padding: 1rem 1.6rem;
+  font-size: 3.6rem;
+  color: #fff;
+  background-color: #000;
+}
+.display-flex {
+  display: flex;
+  color: #fff;
+  background-color: #000;
+  justify-content: space-between;
+}
+.close-btn {
+  font-size: 2.4rem;
+  padding: 0.8rem 1.6rem;
+  cursor: pointer;
+  height: 4.3rem;
+  color: #fff;
+  background-color: #000;
+  border: none;
+}
+.close-btn:hover {
+  color: black;
+  background-color: #ccc;
+}
+.hidden {
+  display: none;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.padding {
+  padding: 1rem 1.6rem;
+}
+.contact-title {
+  font-size: 3.6rem;
+  font-weight: 400;
+  padding: 1rem 1.6rem;
+  color: #fff;
+  background-color: black;
+}
+.contact-p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 1rem 1.6rem 0 1.6rem;
+}
+.input-contact {
+  padding: 1.6rem 0.8rem;
+  border: 0.1rem solid #ccc;
+  margin: 1.5rem 0;
+}
+.btn-send-message {
+  border: none;
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  cursor: pointer;
+  background-color: inherit;
+  width: 14.625rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.4rem;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(0.04rem);
+  z-index: 5;
+}

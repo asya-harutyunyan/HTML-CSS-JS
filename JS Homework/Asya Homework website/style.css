@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #f1f1f1;
+}
+.max-width {
+  max-width: 160rem;
+  margin-top: 8.3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  color: #000;
+  background-color: #fff;
+  font-size: 2.4rem;
+  padding: 1.6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  top: 0;
+  position: fixed;
+}
+.header-title {
+  padding: 0.8rem 1.6rem;
+}
+.btn-header {
+  padding: 0.8rem 1.6rem;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+}
+.btn-header > a {
+  text-decoration: none;
+  font-size: 2.4rem;
+  color: #000;
+}
+.btn-header:hover {
+  color: #000;
+  background-color: #ccc;
+}
+.sidebar {
+  width: 25rem;
+  z-index: 10;
+  font-weight: bold;
+  display: block;
+  right: 0px;
+  color: #f1f1f1;
+  background-color: #000;
+  font-size: 1.8rem;
+  position: fixed;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.sidebar > a {
+  padding: 3.2rem 1.6rem;
+  color: white;
+  text-decoration: none;
+}
+.sidebar > a:hover {
+  color: #000;
+  background-color: #ccc;
+}
+.hidden {
+  display: none;
+}
+.half {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.images {
+  display: flex;
+  filter: grayscale(50%);
+}
+.half > img {
+  width: 100%;
+  margin-bottom: -0.6rem;
+  cursor: pointer;
+}
+.half > img:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(0.04rem);
+  z-index: 5;
+}
+
+.image-bar-items {
+  text-align: center;
+  padding: 3.2rem 0;
+  display: flex;
+  justify-content: center;
+}
+.image-bar-item {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.8rem 1.6rem;
+  width: auto;
+  border: none;
+  display: block;
+  color: #000;
+}
+.color-black {
+  background-color: #000;
+  color: #fff;
+}
+.image-bar-item:hover {
+  background-color: #000;
+  color: #fff;
+}
+.about-me-section {
+  background-color: #616161;
+  color: #fff;
+  padding: 3.2rem 1.6rem;
+}
+.title-20px {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+.avatar-img {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 3.2rem 0;
+}
+.avatar-img > img {
+  width: 100%;
+}
+
+.about-me {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+.center {
+  text-align: center;
+}
+.text-15px {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+.margin {
+  margin: 1.5rem 0;
+}
+hr {
+  opacity: 0.6;
+  margin: 2rem 0;
+}
+.skills-title {
+  padding: 1.6rem 0;
+}
+.letter-space {
+  letter-spacing: 0.4rem;
+}
+.skill-percent-white {
+  color: #000;
+  background-color: #fff;
+}
+.skill-percent-gray {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #000;
+  background-color: #9e9e9e;
+  text-align: center;
+  padding: 0.4rem 0.8rem;
+}
+.percent-95 {
+  width: 95%;
+}
+.percent-85 {
+  width: 85%;
+}
+.percent-80 {
+  width: 80%;
+}
+.resume-btn {
+  margin: 3.1rem 0;
+  padding: 1.2rem 2.4rem;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.padding-16px {
+  padding: 1.6rem 0;
+}
+.basic-pro-section {
+  display: flex;
+  margin: 0 -1.6rem;
+  padding: 0 0.8rem;
+}
+.basic-pro-half {
+  padding: 0 0.8rem;
+  margin-bottom: 1.6rem;
+  width: 50%;
+}
+.basic-pro-half > ul {
+  color: #000;
+  background-color: #fff;
+  list-style: none;
+  text-align: center;
+}
+.li-item {
+  font-size: 1.5rem;
+  padding: 1.6rem;
+  border-bottom: 0.1rem solid #ddd;
+}
+.li-title {
+  padding: 3.2rem 1.6rem;
+  font-size: 2.4rem;
+  background-color: #000;
+  color: #fff;
+}
+.li-button {
+  padding: 2.4rem 1.6rem;
+  border-bottom: none;
+  background-color: #f1f1f1;
+  color: #000;
+}
+.li-button > button {
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+  padding: 1.2rem 2.4rem;
+  border: none;
+  font-size: 1.5rem;
+}
+.li-button > button:hover {
+  color: #000;
+  background-color: #ccc;
+}
+.li-item > h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+.opacity-grey {
+  opacity: 0.6;
+}
+.contact-me-title {
+  text-align: center;
+  margin: 1rem 0;
+}
+.contact-me-text {
+  margin: 1.5rem 0;
+}
+.input-label-container {
+  margin: 1.6rem 0;
+}
+.input-label-container > input {
+  width: 100%;
+  border: 0.1rem solid #ccc;
+  padding: 0.8rem;
+}
+.section-contact {
+  padding: 3.2rem 2.4rem;
+}
+.send-message-btn {
+  color: #fff;
+  background-color: #000;
+  padding: 0.8rem 1.6rem;
+  margin-bottom: 1.6rem;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  font-size: 1.5rem;
+}
+.send-message-btn:hover {
+  color: #000;
+  background-color: #ccc;
+}
+.footer-info-container {
+  display: flex;
+  color: #000;
+  background-color: #9e9e9e;
+  padding: 3.2rem 1.6rem;
+}
+.footer-info-half {
+  padding: 0 0.8rem;
+  /* min-width: 60.1rem; */
+  width: 33.33333%;
+}
+.footer-title {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+.blog-posts {
+  display: flex;
+  padding: 0.8rem 1.6rem;
+}
+.posts-img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1.6rem;
+}
+.posts-img > img {
+  width: 100%;
+  height: 100%;
+}
+.text-18px {
+  font-size: 1.8rem;
+}
+.tags {
+  margin: 1.5rem 0;
+}
+.tag {
+  color: #fff;
+  background-color: #616161;
+  padding: 0.3rem 0.8rem;
+  margin-bottom: 1.6rem;
+  font-size: 1.4rem;
+  display: inline-block;
+}
+.black-tag {
+  color: #fff;
+  background-color: #000;
+}
+.footer-link {
+  color: #fff;
+  background-color: #000;
+  padding: 2.4rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.w3-link {
+  color: #fff;
+}
+
+/* Modal */
+.show {
+display: none;
+position: fixed;
+padding-top: 10rem;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: rgb(0,0,0); 
+}
+
+.img-zoomed{
+  margin: auto;
+  display: block;
+  max-width: 50rem;
+}
+#caption {
+  text-align: center;
+  color: #fff;
+  margin:1.6rem 0;
+  font-size: 1.6rem;
+}
+.img-zoomed, #caption {  
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+.close-modal-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #f1f1f1;
+  background-color: black;
+  font-size: 2.4rem;
+  padding: 0.8rem 1.6rem;
+  cursor: pointer;
+  border: none;
+}
+.close-modal-btn:hover{
+color: #000;
+background-color: #ccc;
+}

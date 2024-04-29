@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-size: 16px;
+}
+.w3-sidebar {
+  width: 300px;
+  font-weight: bold;
+  display: block;
+  color: #fff;
+  background-color: #f44336;
+  padding: 8px 16px;
+  overflow: auto;
+}
+aside {
+  height: 100vh;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.w3-menu-title {
+  width: 100%;
+  font-size: 22px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  padding: 8px 16px;
+}
+.w3-menu-title:hover {
+  color: black;
+  background-color: lightgrey;
+}
+.title-name {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin: 10px 0;
+  font-size: 24px;
+}
+li {
+  list-style: none;
+}
+.menu {
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  font-size: 18px;
+  width: 100%;
+  display: block;
+  white-space: normal;
+  float: none;
+  outline: 0;
+}
+.menu:hover {
+  background-color: white;
+  color: rgb(34, 21, 21);
+}
+
+.container {
+  display: flex;
+}
+main {
+  width: 80%;
+  /* margin-left: 40px;
+  margin-right: 40px; */
+}
+aside {
+  width: 20%;
+}
+.heading {
+  margin-top: 80px;
+  padding: 0.01em 16px;
+}
+.title-design {
+  font-size: 64px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.title {
+  color: #f44336;
+  font-size: 48px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+hr {
+  width: 50px;
+  border: 5px solid red;
+  border-radius: 4px;
+  margin: 20px 0;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+.images {
+  padding: 0 8px;
+}
+.pictures-half {
+  padding: 0 8px;
+  width: 50%;
+  float: left;
+}
+.pictures-half img {
+  width: 100%;
+  margin-bottom: -6px;
+  margin-top: 16px;
+  opacity: 0.8;
+  cursor: pointer;
+  vertical-align: middle;
+  border-style: none;
+}
+img:hover {
+  opacity: 1;
+}
+.information {
+  margin-top: 75px;
+  padding: 0.01em 16px;
+}
+p {
+  font-size: 16px;
+  margin: 16px 0;
+  line-height: 1.5;
+}
+.team {
+  padding: 0 8px;
+  filter: grayscale(75%);
+  display: flex;
+}
+.designer {
+  padding: 0 8px;
+  width: 34%;
+  margin-bottom: 16px;
+  float: left;
+}
+img {
+  width: 100%;
+}
+.names {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 24px;
+  padding: 0;
+}
+.position {
+  opacity: 0.6;
+  margin: 16px 0;
+}
+.light-grey {
+  color: black;
+  background-color: #f1f1f1;
+}
+.lists {
+  padding: 0 8px;
+}
+.half-list {
+  padding: 0 8px;
+  margin-bottom: 16px;
+  width: 50%;
+  float: left;
+}
+.information-about-designer {
+  padding: 8px;
+}

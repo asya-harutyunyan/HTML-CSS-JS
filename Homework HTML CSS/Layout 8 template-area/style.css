@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "div1 div2 div2 div2 div3 div4 div4"
+    "div5 div5 div5 div6 div6 div6 div6"
+    "div7 div7 div7 div6 div6 div6 div6"
+    "div8 div8 div9 div9 div9 div9 div10";
+  grid-template-columns: 85px 75px 50px 50px 90px 90px 70px;
+  grid-template-rows: 130px 55px 200px 170px;
+  grid-gap: 5px;
+  width: 570px;
+  height: 570px;
+}
+.color {
+  background: black;
+  color: white;
+}
+.div1 {
+  grid-area: div1;
+}
+.div2 {
+  grid-area: div2;
+}
+.div3 {
+  grid-area: div3;
+}
+.div4 {
+  grid-area: div4;
+}
+.div5 {
+  grid-area: div5;
+}
+.div6 {
+  grid-area: div6;
+}
+.div7 {
+  grid-area: div7;
+}
+.div8 {
+  grid-area: div8;
+}
+.div9 {
+  grid-area: div9;
+}
+.div10 {
+  grid-area: div10;
+}

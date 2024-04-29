@@ -1,0 +1,22 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../Websites/Social Media website"
+	},
+	{
+		"path": "../Homework folder/Layout 2"
+	},
+	{
+		"path": "../Websites/website"
+	},
+	{
+		"path": "../Media"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Media"
+  }
+}

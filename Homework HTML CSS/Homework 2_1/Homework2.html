@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homework 2</title>
+    </head>
+    <body>
+    <form>
+    <p>
+    <label for="firstname">Firstname:</label> 
+    <input type="text" id="firstname">   
+    </p>
+    <p>
+    <label for="Middlename">Middlename:</label>
+    <input type="text" id="Middlename">
+    </p>
+    <p>
+    <label for="Lastname">Lastname:</label>
+    <input type="text" id="Lastname">
+</p>
+<p>
+<label for="Course">Course:</label>
+<select name="course" id="Course">
+<option value="Course1">Course1</option>
+<option value="Course2">Course2</option>
+<option value="Course3">Course3</option>
+</select>
+</p>
+<p>
+<label for="Gender">Gender:</label>
+</p>
+<p>
+    <input type="radio" name="Gender" id="Male" value="Male">
+    <label for="Male">Male</label>
+
+<p>
+
+<input type="radio" name="Gender" id="Female" value="Female">
+<label for="Female">Female</label>
+</p>
+<p>
+    <input type="radio" name="Gender" id="Other" value="Other">
+    <label for="Other">Other</label>
+</p>
+<p>
+<label for="phone"> Phone:</label>
+<input type="number" id="phone" placeholder="+374" >
+<input type="number" id="phone" >
+</p>
+<p>
+<label for="address">Address</label>
+<br>
+<textarea id="address" rows="5" cols="50"></textarea>
+</p>
+<p> 
+<label for="email">Email:</label>
+<input type="email" id="email">    
+</p>
+<p>
+<label for="password"> Password:</label>
+<input type="password" id="password" name="password">
+<p>
+<label for="pass"> Re-type password:</label>
+
+<input type="password" id="pass" name="password">
+</p>
+<p>
+<input type="Submit" value="Submit">
+</p>
+    </form> 
+ <form>
+  <fieldset>
+  <legend>General information</legend>
+  <label for="arrival date">Arrival date</label>
+  <input type="text" name="arrival date" id="arrival date"/>
+  <span> &nbsp;</span><br/>
+  <label for="nights">Nights</label>
+  <input type="number" name="nights" id="nights"/></br>
+  <label> Adults:</label>
+  <select name="adults" id="adults">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    </select> <br/>
+    <label> Children:</label>
+  <select name="children" id="children">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    </select> 
+  </fieldset> 
+  <fieldset>
+   <legend>Preferences</legend> 
+   <label for="Room type">Room type:</label>
+
+   <input type="radio" name="room type" id="Standard" value="Standard">
+   <label for="Standard">Standard</label>
+
+   <input type="radio" name="room type" id="Business" value="Business">
+   <label for="Business">Business</label>
+
+   <input type="radio" name="room type" id="Suite" value="S">
+   <label for="Suite">Suite</label> </br>
+
+   <label for="Bed type">Bed type:</label>
+   
+   <input type="radio" name="Bed type" id="Single" value="Single">
+   <label for="Single">Single</label>
+   
+   <input type="radio" name="Bed type" id="Double" value="Double">
+   <label for="Double">Double</label> </br>
+   
+   <input type="checkbox" id="text" > 
+   <label for="text">Smoking</label>
+</fieldset> 
+  
+<fieldset>
+   <legend>Contact Information</legend> 
+   <label for="name">Name:</label>
+   <input type="text" id="name" required> </br>
+   <label for="email"> Email:</label>
+   <input type="email" id="email" required> </br>
+   <label for="phone">Phone:</label>
+   <input type="number" id="phone">
+  </fieldset>
+  <button type="submit">Submit Reservation</button>
+  <button type="reset">Clear</button>
+ </form> 
+      
+ <!--Table   -->
+      
+      <table>
+        <tr>
+        <th>N</th>
+        <th>Nationality</th>  
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Salary</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Armenian</td>  
+            <td>John</td>
+            <td>Smith</td>
+            <td>5000$</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Russian</td>  
+                <td>Antony</td>
+                <td>Martial</td>
+                <td>8000$</td>
+                </tr>
+             <tr>
+        <td>3</td>
+        <td rowspan="2">American</td> 
+        <td>Wayne</td>
+        <td>Rooney</td>
+        <td>6000$</td>
+        </tr>
+         <tr>
+         <td>4</td>
+ 
+        <td>Nani</td>
+        <td>Luis</td>
+         <td>10000$</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>French</td>  
+           <td>Henry</td>
+           <td>Tierry</td>
+            <td>29000$</td>
+           </tr>
+    
+      </table>
+
+      
+      <!-- Homework Pizza Form -->
+<h1>Pizza Form</h1>
+<fieldset>
+<legend>Personal Info</legend>
+<label for="First name">First Name:</label>
+<input type="text" id="First name"> </br>
+
+<label for="last name" >Last name:</label>
+<input type="text" id="last name"> </br>
+
+<label for="phone 2">Phone:</label>
+<input type="number" id="phone 2">
+</fieldset>
+
+<fieldset>
+<legend>Pizza</legend>
+<label for="Size">Size:</label> </br>
+
+<input type="radio" name="Size" id="small" >
+<label for="small">Small</label> </br>
+
+<input type="radio" name="Size" id="medium" >
+<label for="medium">Medium</label>  </br>
+
+<input type="radio" name="Size" id="large" >
+<label for="large">Large</label> </br>
+<p>
+</p>
+
+<label for="Toppings"> Toppings (check all that apply):</label> </br>
+<input type="checkbox" id="extra cheese">
+<label for="extra cheese">Extra cheese</label>
+
+<input type="checkbox" id="pepperoni">
+<label for="pepperoni">Pepperoni</label>
+
+<input type="checkbox" id="sausage">
+<label for="sausage"> Sausage</label> </br>
+
+<input type="checkbox" id="mushrooms" >
+<label for="mushrooms">Mushrooms</label>
+
+<input type="checkbox" id="black olives">
+<label for="black olives"> Black Olives</label>
+
+<input type="checkbox" id="green peppers">
+<label for="green peppers">Green Peppers</label> </br>
+
+<input type="checkbox" id="tomatos">
+<label for="tomatos" >Tomatos</label>
+
+<input type="checkbox" id="onions">
+<label for="onions">Onions</label>
+
+<input type="checkbox" id="anchovies">
+<label for="anchovies">Anchovies</label> 
+</fieldset>
+
+<button type="submit"> Enter my information</button>
+    
+<p>
+</p>
+<!-- Travel reservations -->
+<h1>Travel reservation form</h1> 
+<h3>*denotes mandotory</h3>
+<label for="full name">Full name*:</label> </br>
+<input type="text" id="full name" placeholder="FirstName LastName" required> </br>
+<p></p>
+<label for="email address">Email address*:</label> </br>
+<input type="email" id="email address" placeholder="EMAIL_ADDRESS" required> </br> 
+<p></p>
+<label for="package">Select Tour Package*:</label> </br>
+<select name="package" id="package" required>
+<option value="Goa">Goa</option>
+<option value="UAE">UAE</option>
+<option value="Egypt">Egypt</option>
+<option value="England">England</option> 
+</select> </br>
+<p></p>
+<label for="arrival date2">Arrival date*:</label> </br>
+<input type="number" name="date" id="arrival date2" placeholder="m/d/y" required> </br>
+</br>
+
+<label for="persons">Namber of persons*:</label> </br>
+<input type="number" id="persons" placeholder="UNKNOWN_TYPE" required> 
+</br>
+<p></p>
+<label for="avail"> What would you want to avail?*</label> 
+</br>
+<label for="boarding"> Boarding</label>
+<input type="checkbox" id="boarding"> </br>
+
+<label for="fooding"> Fooding</label>
+<input type="checkbox" id="fooding"> </br>
+
+<label for="sight seeing"> Sight seeing</label>
+<input type="checkbox" id="sight seeing" required>
+<p></p>
+
+<label for="coupon">Discount Coupone code:</label> </br>
+<input type="text" id="coupon" placeholder="UNKNOWN_TYPE">
+<p></p>
+
+<label for="terms">Terms and conditions*</label> </br>
+<input type="radio" id="agree">
+<label for="agree"> I agree</label> 
+
+<input type="radio" id="disagree" >
+<label for="disagree"> I disagree</label>
+<p></p>
+<button type="submit"> Complete my reservation</button>
+
+<!-- Table -->
+
+<p>   
+</p>
+<table>
+<tr>
+<th colspan="6">Time table</th>
+</tr>
+
+<tr>
+
+<th rowspan="6">Hours</th>    
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Thu</th>
+<th>Fri</th>
+</tr>
+
+<tr>
+<td>Science</td>
+<td>Maths</td>
+<td>Science</td>
+<td>Maths</td>
+<td>Arts</td>
+</tr>
+
+<tr>
+    <td>Social</td>
+    <td>History</td>
+    <td>English</td>
+    <td>Social</td>
+    <td>Sports</td>
+    </tr>
+
+    <tr>
+    <th colspan="5">Lunch</th>
+    </tr>
+
+    <tr>
+    <td>Science</td>
+    <td>Maths</td>
+    <td>Science</td>
+    <td>Maths</td>
+    <td rowspan="2">Project</td>
+    </tr>
+        
+    <tr>
+    <td>Social</td>
+    <td>History</td>
+    <td>English</td>
+    <td>Social</td>
+    </tr>
+
+</table>
+
+<!-- Table 2 -->
+<h1>Table 2 </h1>
+<table>
+<tr>
+<th rowspan="11">TCB</th>
+<th>Order no:</th>
+<td>#ABC001</td>
+</tr>
+
+<tr>
+<th>Order Date:</th>
+<td colspan="3">23-Mar-2016</td>
+</tr>
+
+<tr>
+<th colspan="4">Customer</th>
+</tr>
+
+<tr>
+<th>Name:</th>
+<td colspan="3">John Papas</td>
+</tr>
+
+<tr>
+<th>Address:</th>
+<td colspan="3">Independence Day 5th str, 11511</td>
+</tr>
+
+<tr>
+<th colspan="4">Order Details</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Of Mice and Men</td>
+<td>Book</td>
+<td>10.00<span>&#8364;</span></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Les Miserables</td>
+<td>Book</td>
+<td>12.00<span>&#8364;</span></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Game of Thrones-S01</td>
+<td>DVD</td>
+<td>50.00<span>&#8364;</span></td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Samsung Galaxy</td>
+<td>Mobile Phone</td>
+<td>200.00<span>&#8364;</span></td>
+</tr>
+
+<tr>
+<th colspan="3">Total:</th>
+<td>272.00<span>&#8364;</span></td>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.6" height="24.6" viewBox="0 0 24.6 24.6">
+  <g id="loupe" transform="translate(0.3 0.3)">
+    <g id="Group_10" data-name="Group 10">
+      <g id="Group_9" data-name="Group 9">
+        <path id="Path_16" data-name="Path 16" d="M10.569,0A10.569,10.569,0,1,0,21.138,10.569,10.581,10.581,0,0,0,10.569,0Zm0,19.187a8.618,8.618,0,1,1,8.618-8.618A8.628,8.628,0,0,1,10.569,19.187Z" fill="#404040" stroke="#404040" stroke-width="0.6"/>
+      </g>
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(16.455 16.455)">
+      <g id="Group_11" data-name="Group 11">
+        <path id="Path_17" data-name="Path 17" d="M358.3,356.925l-5.593-5.594a.975.975,0,0,0-1.38,1.38l5.594,5.593a.975.975,0,0,0,1.38-1.38Z" transform="translate(-351.046 -351.046)" fill="#404040" stroke="#404040" stroke-width="0.6"/>
+      </g>
+    </g>
+  </g>
+</svg>

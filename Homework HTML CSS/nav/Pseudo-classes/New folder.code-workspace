@@ -1,0 +1,40 @@
+{
+  "folders": [
+	{
+		"path": "../../../New folder"
+	},
+	{
+		"path": "../../../Jane Doe website"
+	},
+	{
+		"path": "../../Homework 2_1"
+	},
+	{
+		"path": "../../Loading animation"
+	},
+	{
+		"path": "."
+	},
+	{
+		"path": "../../Layout 4"
+	},
+	{
+		"path": "../../../Html Css/Grid"
+	},
+	{
+		"path": "../../../Html Css/grid2"
+	},
+	{
+		"path": "../../../Websites/Social Media website"
+	},
+	{
+		"path": "../../../loading"
+	},
+	{
+		"path": "../../../Exam task"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Exam task"
+  }
+}

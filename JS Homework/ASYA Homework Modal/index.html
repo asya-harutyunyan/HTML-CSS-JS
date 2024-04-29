@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework Modal</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main-page">
+      <div class="left-buttons">
+        <button class="btn-left-side btn-menu">menu</button>
+        <button class="btn-left-side btn-contact">contact</button>
+      </div>
+      <div class="logo-title">
+        <p class="logo">logo</p>
+      </div>
+      <div class="footer-info">
+        <p class="date">monday - friday 10-23 | saturday 14-02</p>
+        <p class="address">42 village St, New York</p>
+        <p class="w3-link">
+          powered by<a
+            href="https://www.w3schools.com/w3css/default.asp"
+            target="_blank"
+            class="link"
+            >w3.css</a
+          >
+        </p>
+      </div>
+      <!-- Modal content 1-->
+      <div class="modal-content hidden menu-modal">
+        <ul class="ul-menu">
+          <div class="display-flex">
+            <li class="li-title">Starters</li>
+            <button class="close-btn close-menu">x</button>
+          </div>
+          <li class="li-item">Tomato soup <b> $2.50</b></li>
+          <li class="li-item">Chicken Salad <b> $3.50</b></li>
+          <li class="li-item">Bread and Butter <b> $100</b></li>
+          <li class="li-title">Main Courses</li>
+          <li class="li-item">Grilles Fish and Potatoes <b> $8.50</b></li>
+          <li class="li-item">Italian Pizza<b> $5.50</b></li>
+          <li class="li-item">Veggie Pasta<b> $4.00</b></li>
+          <li class="li-item">Chicken and Potatoes<b> $6.50</b></li>
+          <li class="li-item">Deluxe Burger<b> $5.00</b></li>
+          <li class="li-title">Desserts</li>
+          <li class="li-item">Fruit Salad <b> $2.50</b></li>
+          <li class="li-item">Ice cream <b> $2.00</b></li>
+          <li class="li-item">Chocolate Cake <b> $4.00</b></li>
+          <li class="li-item">Cheese <b> $5.50</b></li>
+        </ul>
+      </div>
+      <!-- Modal content 2 -->
+      <div class="modal-content hidden contact-modal">
+        <div class="display-flex">
+          <h1 class="contact-title padding">Contact</h1>
+          <button class="close-btn close-contact">x</button>
+        </div>
+        <p class="contact-p padding">
+          Reserve a table, ask for today's special or just send us a message:
+        </p>
+        <form class="contact-form padding">
+          <input class="input-contact" type="text" placeholder="Name" />
+          <input
+            class="input-contact"
+            type="number"
+            placeholder="How many people"
+          />
+          <input class="input-contact" type="datetime-local" />
+          <input
+            class="input-contact"
+            type="text"
+            placeholder="Message \ Special requirements"
+          />
+          <button class="btn-send-message">SEND MESSAGE</button>
+        </form>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>

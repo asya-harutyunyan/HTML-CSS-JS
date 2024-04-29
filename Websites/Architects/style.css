@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --black: black;
+  --white: white;
+  --lightgrey: #f1f1f1;
+  --grey: #ccc;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+  background-color: var(--white);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+nav {
+  color: var(--black);
+  background-color: var(--white);
+  padding: 0.8rem 1.6rem;
+  box-shadow: 0 2px 5px 0 rgba(71, 17, 17, 0.16), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  width: 100%;
+  overflow: hidden;
+  letter-spacing: 0.4rem;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
+.right-side {
+  display: flex;
+}
+.nav-item {
+  list-style: none;
+  padding: 0.8rem 1.6rem;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--black);
+}
+.link b {
+  padding-right: 0.6rem;
+}
+.nav-item:hover {
+  color: var(--black);
+  background-color: var(--grey);
+}
+.img-building {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 150rem;
+  max-height: 80rem;
+  position: relative;
+}
+.img-architecture {
+  max-width: 100%;
+  height: auto;
+}
+.text-for-img {
+  position: absolute;
+  margin-top: 1.6rem;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title-for-main-img {
+  color: var(--white);
+  font-size: 3.6rem;
+  font-weight: 400;
+  margin: 1rem 0;
+  letter-spacing: 0.4rem;
+}
+.br > b {
+  color: var(--white);
+  background-color: var(--black);
+  padding: 0.8rem 1.6rem;
+  opacity: 0.75;
+}
+.main-content {
+  max-width: 156.4rem;
+  padding: 0.8rem 1.6rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.title-sections {
+  padding: 3.2rem 1.6rem;
+}
+.title-h3 {
+  padding: 1.6rem 0;
+  margin: 1rem 0;
+  border-bottom: 0.1rem solid #f1f1f1;
+  font-weight: 400;
+  font-size: 2.4rem;
+}
+.projects-images-row {
+  padding: 0 0.8rem;
+  display: flex;
+}
+.row-half {
+  display: flex;
+}
+.img-projects-padding {
+  padding: 0 0.8rem;
+  margin-bottom: 1.6rem;
+}
+.img-project {
+  position: relative;
+}
+.img-houses {
+  width: 100%;
+}
+.title-for-project-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--white);
+  background-color: var(--black);
+  padding: 0.8rem 1.6rem;
+}
+.about-info {
+  margin: 1.5rem 0;
+}
+.staff-row {
+  filter: grayscale(75%);
+  padding: 0 0.8rem;
+  display: flex;
+}
+.staff-half {
+  display: flex;
+}
+.staff {
+  padding: 0 0.8rem;
+  margin-bottom: 1.6rem;
+}
+.staff-img {
+  width: 100%;
+  border-style: none;
+  vertical-align: middle;
+}
+.staff-name {
+  font-weight: 400;
+  margin: 1rem 0;
+  font-size: 2.4rem;
+}
+.staff-position {
+  opacity: 0.6;
+}
+.staff > p {
+  margin: 1.5rem 0;
+}
+.button-about {
+  display: block;
+  width: 100%;
+  color: var(--black);
+  background-color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.5rem;
+}
+.button-about:hover {
+  color: var(--black);
+  background-color: var(--grey);
+}
+.input {
+  border: 0.1rem solid #ccc;
+  padding: 0.8rem;
+  display: block;
+  width: 100%;
+  overflow: visible;
+  font-size: 1.6rem;
+}
+.input-margin {
+  margin: 1.6rem 0;
+}
+.form-button {
+  color: var(--white);
+  background-color: var(--black);
+  margin: 1.6rem 0;
+  padding: 0.8rem 1.6rem;
+  cursor: pointer;
+  border: none;
+  font-size: 1.6rem;
+}
+.form-button:hover {
+  color: var(--black);
+  background-color: #ccc;
+}
+.map-img {
+  padding: 0.01em 1.6rem;
+}
+.map {
+  max-width: 100%;
+  height: auto;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 1.6rem 0;
+  text-align: center;
+}
+.footer-p {
+  margin: 1.5rem 0;
+  font-size: 1.6rem;
+}
+.footer-p > a {
+  color: white;
+}
+.footer-p > a:hover {
+  color: green;
+}
+@media screen and (max-width: 992px) {
+  .row-half {
+    flex-wrap: wrap;
+  }
+  .staff-half {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 600px) {
+  .projects-images-row {
+    flex-wrap: wrap;
+  }
+  .staff-row {
+    flex-wrap: wrap;
+  }
+  .right-side {
+    display: none;
+  }
+  .text-architects {
+    display: none;
+  }
+}

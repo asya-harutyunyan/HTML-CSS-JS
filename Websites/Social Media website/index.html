@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav>
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a href="#" class="link logo"
+              ><i class="fa fa-home w3-margin-right"></i>Logo</a
+            >
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="link"><i class="fa fa-globe"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="link"><i class="fa fa-user"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="link"><i class="fa fa-envelope"></i></a>
+          </li>
+          <li class="nav-item">
+            <div class="hover-dropdown">
+              <button class="link">
+                <i class="fa fa-bell"></i>
+                <sup>3</sup>
+              </button>
+              <div class="dropdown-content">
+                <a href="#" class="notification-item">One new friend request</a>
+                <a href="#" class="notification-item"
+                  >John Doe posted on your wall</a
+                >
+                <a href="#" class="notification-item">Jane likes your post</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item profile-img">
+            <a href="#" class="link">
+              <div class="img-container">
+                <img
+                  src="https://www.w3schools.com/w3images/avatar2.png"
+                  alt="Avatar"
+                  class="w3-circle img-nav"
+                />
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main class="content">
+      <div class="row">
+        <!-- First colomn -->
+        <div class="col">
+          <!-- My profile -->
+          <div class="w3-card shadow">
+            <div class="container">
+              <h4 class="myprofile">My Profile</h4>
+              <div class="img-profile">
+                <img
+                  src="https://www.w3schools.com/w3images/avatar3.png"
+                  class="w3-circle img-profile"
+                  alt="Avatar"
+                />
+              </div>
+              <hr />
+              <p class="info">
+                <i
+                  class="fa fa-pencil fa-fw w3-margin-right w3-text-theme icon-info"
+                ></i>
+                Designer,UI
+              </p>
+              <p class="info">
+                <i
+                  class="fa fa-home fa-fw w3-margin-right w3-text-theme icon-info"
+                ></i>
+                London, UK
+              </p>
+              <p class="info">
+                <i
+                  class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme icon-info"
+                ></i>
+                April 1, 1988
+              </p>
+            </div>
+          </div>
+
+          <!-- Accordion -->
+          <div class="info-about-me shadow">
+            <button class="groups-events-photos">
+              <i class="fa-solid fa-circle-notch"></i>My Groups</button
+            ><br />
+            <button class="groups-events-photos">
+              <i class="fa-solid fa-calendar-minus fa-home"></i>My Events</button
+            ><br />
+            <button class="groups-events-photos">
+              <i class="fa-sharp fa-solid fa-users"></i>My Photos
+            </button>
+          </div>
+          <!-- Interests -->
+          <div class="interests shadow">
+            <div class="interests-content">
+              <p class="interests-title">Interests</p>
+              <p>
+                <span class="small color-white news">News</span>
+                <span class="small color-white w3schools">W3Schools</span>
+                <span class="small color-white labels">Labels</span>
+                <span class="small color-white games">Games</span>
+                <span class="small color-white friends">Friends</span><br />
+                <span class="small color-white games2">Games</span>
+                <span class="small color-white friends2">Friends</span>
+                <span class="small color-black food">Food</span>
+                <span class="small color-black design">Design</span>
+                <span class="small color-black art">Art</span><br />
+                <span class="small color-black photos">Photos</span>
+              </p>
+            </div>
+          </div>
+          <!-- Alert box -->
+          <div class="alert-box shadow">
+            <p><b>Hey!</b></p>
+            <p>People are looking at your profile. Find out who.</p>
+          </div>
+        </div>
+        <!-- Second colomn -->
+        <div class="col2">
+          <div class="stasus-content">
+            <label for="media" class="media-title"
+              >Social Media template by w3.css</label
+            ><br />
+            <input type="text" id="media" /><br />
+            <button class="post">
+              <i class="fa-solid fa-pen"></i>&nbsp;Post
+            </button>
+          </div>
+          <!-- John Doe -->
+
+          <div class="info-john-doe shadow">
+            <div class="img-name">
+              <div class="img-name-left">
+                <img
+                  src="https://www.w3schools.com/w3images/avatar2.png"
+                  alt="Avatar"
+                  class="w3-circle img-profile users"
+                />
+                <h4>John Doe</h4>
+              </div>
+              <div class="right">
+                <p class="minute">1 min</p>
+              </div>
+            </div>
+            <hr />
+            <p class="about-user">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="pictures">
+              <div class="pictures-half">
+                <img
+                  src="https://www.w3schools.com/w3images/lights.jpg"
+                  alt="Northern Lights"
+                  class="pictures-margin"
+                />
+              </div>
+              <div class="pictures-half">
+                <img
+                  src="https://www.w3schools.com/w3images/nature.jpg"
+                  alt="Nature"
+                  class="pictures-margin"
+                />
+              </div>
+            </div>
+            <button class="post">
+              <i class="fa-sharp fa-solid fa-thumbs-up"></i> &nbsp;Like
+            </button>
+            <button class="post comment-color">
+              <i class="fa-solid fa-comment"></i> &nbsp;Comment
+            </button>
+          </div>
+          <!-- Jane Doe -->
+          <div class="info-john-doe shadow">
+            <div class="img-name">
+              <div class="img-name-left">
+                <img
+                  src="https://www.w3schools.com/w3images/avatar5.png"
+                  alt="Avatar"
+                  class="w3-circle img-profile users"
+                />
+                <h4>Jane Doe</h4>
+              </div>
+              <div class="right">
+                <p class="minute">16 min</p>
+              </div>
+            </div>
+            <hr />
+            <p class="about-user">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <button class="post">
+              <i class="fa-sharp fa-solid fa-thumbs-up"></i> &nbsp;Like
+            </button>
+            <button class="post comment-color">
+              <i class="fa-solid fa-comment"></i> &nbsp;Comment
+            </button>
+          </div>
+          <!-- Angie Jane -->
+          <div class="info-john-doe shadow">
+            <div class="img-name">
+              <div class="img-name-left">
+                <img
+                  src="https://www.w3schools.com/w3images/avatar6.png"
+                  alt="Avatar"
+                  class="w3-circle img-profile users"
+                />
+                <h4>Angie Jane</h4>
+              </div>
+              <div class="right">
+                <p class="minute">32 min</p>
+              </div>
+            </div>
+            <hr />
+            <p class="about-user">Have you seen this?</p>
+            <div class="pictures">
+              <img
+                src="https://www.w3schools.com/w3images/nature.jpg"
+                alt="Nature"
+                class="picture-nature"
+              />
+            </div>
+            <p class="about-user">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button class="post">
+              <i class="fa-sharp fa-solid fa-thumbs-up"></i> &nbsp;Like
+            </button>
+            <button class="post comment-color">
+              <i class="fa-solid fa-comment"></i> &nbsp;Comment
+            </button>
+          </div>
+        </div>
+        <!-- Column 3 -->
+        <div class="col3">
+          <!-- Events -->
+          <div class="events-requests shadow">
+            <div class="right-content">
+              <p class="info-right paddding-button">Upcoming Events:</p>
+              <img
+                src="https://www.w3schools.com/w3images/forest.jpg"
+                alt="forest"
+                class="img-forest"
+              />
+              <p class="info-right"><b>Holiday</b></p>
+              <p class="info-right">Friday 15:00</p>
+              <p class="info-right margin-button">
+                <button class="info-button">Info</button>
+              </p>
+            </div>
+          </div>
+          <!-- Friend requests -->
+          <div class="events-requests shadow">
+            <div class="right-content">
+              <p class="info-right paddding-button">Friend Requests</p>
+              <img
+                src="https://www.w3schools.com/w3images/avatar6.png"
+                alt="Avatar"
+                class="img-avatar"
+              />
+              <p>Jane Doe</p>
+              <div class="row-buttons">
+                <div class="button-half">
+                  <button class="request-button">
+                    <i class="fa-solid fa-check"></i>
+                  </button>
+                </div>
+                <div class="button-half">
+                  <button class="request-button red">
+                    <i class="fa-solid fa-xmark"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ADS -->
+          <div class="events-requests ads-padding shadow">
+            <p>ADS</p>
+          </div>
+          <!-- ICON -->
+          <div class="events-requests icon-padding shadow">
+            <p><i class="fa-solid fa-bug"></i></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <h5 class="title-footer">Footer</h5>
+      </div>
+      <div class="powered-by">
+        <p class="title-footer">
+          Powered by<a
+            href="https://www.w3schools.com/w3css/default.asp"
+            target="blank"
+          >
+            w3.css</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

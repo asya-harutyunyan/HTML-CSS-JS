@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="w3-bar w3-white w3-large">
+      <nav>
+        <a href="#" class="w3-bar-item w3-red"
+          ><i class="fa-solid fa-bed"></i>Logo</a
+        >
+        <a href="#rooms" class="w3-bar-item">Rooms</a>
+        <a href="#about" class="w3-bar-item">About</a>
+        <a href="#contact" class="w3-bar-item">Contact</a>
+        <a href="#contact" class="w3-bar-item w3-right">Book Now</a>
+      </nav>
+    </div>
+    <!-- Header -->
+    <header class="w3-display-container w3-content">
+      <!-- <img
+        class="w3-image"
+        src="https://www.w3schools.com/w3images/hotel.jpg"
+        style="min-width: 1000px"
+        width="1500"
+        height="800"
+      /> -->
+      <div class="w3-display-left">
+        <div class="w3-container-red">
+          <h2><i class="fa-solid fa-bed"></i>Hotel Name</h2>
+        </div>
+        <div class="w3-container">
+          <form>
+            <div class="w3-row">
+              <div class="w3-half">
+                <label for="checkin"
+                  ><i class="fa-regular fa-calendar"></i>Check In</label
+                ><br />
+                <input type="text" id="checkin" placeholder="DD MM YYYY" />
+              </div>
+
+              <div class="w3-half right-side">
+                <label for="checkout"
+                  ><i class="fa-regular fa-calendar"></i>Check Out</label
+                ><br />
+                <input type="text" id="checkout" placeholder="DD MM YYYY" />
+              </div>
+            </div>
+
+            <div class="w3-row">
+              <div class="w3-half">
+                <label for="adults"
+                  ><i class="fa-solid fa-person"></i>Adults</label
+                ><br />
+                <input type="number" id="adults" value="1" />
+              </div>
+
+              <div class="w3-half">
+                <label for="kids"
+                  ><i class="fa-solid fa-child-reaching"></i>Kids</label
+                ><br />
+                <input type="number" id="kids" value="0" />
+              </div>
+            </div>
+            <button class="w3-button">
+              <i class="fa-solid fa-magnifying-glass"></i>Search availability
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

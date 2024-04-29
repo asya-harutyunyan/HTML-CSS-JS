@@ -1,0 +1,129 @@
+/* .wrapper {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: 70% 30%;
+  grid-column-gap:10px;
+  grid-row-gap:20px;
+  /* grid-gap: 2px; */
+
+/* .wrapper > div {
+  background: #eee;
+  padding: 1em;
+} */
+/* .wrapper > div:nth-child(odd) {
+  background: #ddd;
+} */
+/* 2rd div */
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: repeat(4, 1fr 2fr);
+}
+*/ .nested {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+/* .wrapper > div {
+  background: #eee;
+  padding: 1em;
+}
+.wrapper > div:nth-child(odd) {
+  background: #ddd;
+}
+.nested > div {
+  border: #333 1px solid;
+  padding: 1em;
+}
+
+/* 3rd div */
+/* .wrapper {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.wrapper > div {
+  background: #eee;
+  padding: 1em;
+}
+.wrapper > div:nth-child(odd) {
+  background: #ddd;
+}
+.box1 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+.box2 {
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+.box3 {
+  grid-column: 2/4;
+  grid-row: 3/4;
+}
+.box4 {
+  grid-column: 1;
+  grid-row: 2/4;
+  border: 2px solid black;
+  border-radius: 30%;
+} */
+
+/* div4 */
+/* body {
+  height: 100vh;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  height: 100%;
+}
+.header {
+  background: black;
+  color: white;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.menu {
+  background: red;
+  color: white;
+  grid-column: 2/5;
+}
+.hero {
+  background: rgb(0, 132, 255);
+  color: white;
+  grid-column: 1/5;
+  grid-row: 2/6;
+}
+.main {
+  background: rgb(11, 11, 92);
+  color: white;
+  grid-column: 1/3;
+  grid-row: 6/10;
+}
+.empty {
+  background: white;
+  color: white;
+  grid-column: 3/4;
+  grid-row: 6/10;
+}
+.image {
+  background: rgb(51, 245, 235);
+  color: white;
+  grid-column: 4/5;
+  grid-row: 6/8;
+}
+.extra {
+  background: rgb(67, 204, 67);
+  color: white;
+  grid-column: 4/5;
+  grid-row: 8/10;
+}
+.banner {
+  background: yellow;
+  color: white;
+  grid-column: 1/5;
+  grid-row: 10/10;
+} */

@@ -1,0 +1,43 @@
+body {
+  line-height: 1.5;
+}
+.nav {
+  background-color: rgb(199, 187, 187);
+}
+.nav-items {
+  display: flex;
+}
+.nav-item {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+  display: block;
+  padding: 12px 24px;
+  color: black;
+  border-right: 1px solid grey;
+}
+
+.nav2 {
+  background-color: rgb(6, 143, 102);
+}
+
+.link2 {
+  text-decoration: none;
+  display: block;
+  padding: 12px 24px;
+  color: white;
+  border-right: 1px solid grey;
+}
+
+.nav3 {
+  background-color: rgba(50, 131, 185, 0.856);
+}
+
+.nav4 {
+  background-color: rgba(33, 39, 53, 0.986);
+}
+
+.nav5 {
+  background-color: rgb(212, 48, 7);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 1000px;
+        height: 50px;
+        border: 10px solid;
+        border-radius: 35px;
+        overflow: hidden;
+      }
+      .loading {
+        width: 0%;
+        height: 100%;
+        background-color: aqua;
+        transition: width 1s;
+      }
+      .container .loading {
+        animation-name: loading;
+      }
+      /* .container:hover .loading {
+        width: 100%;
+      } */
+      @keyframes loading {
+        0% {
+          width: 0%;
+        }
+        100% {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="loading"></div>
+    </div>
+  </body>
+</html>

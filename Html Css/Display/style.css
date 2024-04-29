@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  background-color: #cacaca;
+  height: 100vh;
+  padding: 10px;
+  margin: 50px;
+  display: flex;
+  align-items: flex-start;
+  /* align-items: center;
+  align-items: stretch;
+  align-items: flex-end;
+
+  justify-content: center;
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: space-between;
+
+  flex-direction: column-reverse;
+  flex-direction: row;
+  flex-direction: row-reverse; */
+
+  /* flex-direction: column; */
+  gap: 5px;
+  /* align - verevic nerqev , justify-dzaxic aj  */
+
+  /* flex-wrap: wrap;
+  flex-wrap: nowrap;
+  flex-wrap: wrap-reverse; */
+  /* flex-wrap-wrap- poqr ekrani jamanak iran tak lini, cnoxin enq talis */
+}
+.item {
+  background-color: #ff0037;
+  color: #fff;
+  font-size: 35px;
+  padding: 20px;
+}
+/* .item-1 {
+  flex-basis: 400px;
+  flex-grow: 1;
+  flex-shrink: 10;
+  flex: 10 1 400px;
+}
+.item-2 {
+  flex-basis: 400px;
+  flex: 1 1 400px;
+} */
+
+/* .item-1 {
+  order: 3;
+}
+.item-2 {
+  order: 4;
+}
+.item-3 {
+  order: 0;
+}
+.item-4 {
+  order: 1;
+}
+.item-5 {
+  order: 2;
+} */
+.item-5 {
+  margin-left: auto;
+  align-self: flex-end;
+}

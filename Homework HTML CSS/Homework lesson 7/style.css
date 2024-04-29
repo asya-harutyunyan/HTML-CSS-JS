@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.heading {
+  background-color: rgb(231, 167, 137);
+  width: 500px;
+  height: 50px;
+  padding: 10px;
+  color: rgb(175, 44, 44);
+  border-top-style: double;
+  border-bottom-style: double;
+  border-color: rgb(235, 41, 41);
+}
+
+h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.div1 {
+  width: 400px;
+  height: 200px;
+  background-color: rgb(183, 183, 201);
+  padding: 40px;
+  border: 2px solid blue;
+  margin: 20px;
+}
+li:last-child {
+  color: red;
+}
+.div2 {
+  width: 400px;
+  height: 200px;
+  background-color: rgb(183, 183, 201);
+  padding: 40px;
+  border: 2px solid blue;
+  margin: 20px;
+}
+.week1 {
+  color: blue;
+}
+.week2 {
+  color: blue;
+}
+h4 {
+  line-height: 40px;
+}
